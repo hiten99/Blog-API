@@ -14,16 +14,18 @@ Steps to install the application:
 4. rails db:migrate
 5. rails db:seed
 6. rails s
-7. Use Postman to test api endpoints
-a. get: http://localhost:3000/api/v1/articles
-b. post: http://localhost:3000/api/v1/articles
+
+
+Use Postman to test api endpoints
+1. get: http://localhost:3000/api/v1/articles
+2. post: http://localhost:3000/api/v1/articles
 add headers: key=Content-Type value=application/json
 body: {
 "title": "this is test title2",
 "content": "this is test body2"
 }
-c. delete: http://localhost:3000/api/v1/articles/15
-d. put:http://localhost:3000/api/v1/articles/15
+3. delete: http://localhost:3000/api/v1/articles/15
+4. put:http://localhost:3000/api/v1/articles/15
 add headers: key=Content-Type value=application/json
 body: {
 "title": "this is updated title",
